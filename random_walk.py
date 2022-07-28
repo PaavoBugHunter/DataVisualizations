@@ -3,7 +3,10 @@ Randomwalk is a concept for modelling random development of occurrences like con
 It has numerous applications in physics, economics, finance, biology, and other disiplines.
 '''
 from random import choice
-
+'''
+Choice-method returns a randomly selected element from a specified sequence.
+The sequence can be a string, list, tuple, range of numbers, or any other kind of sequence.
+'''
 class RWalkGenerator():
     '''Creates an instance of randomwalk (RW) with 500 steps and initial coordinates (0,0)'''
     def __init__(self, num_points = 5000) -> None:
