@@ -1,0 +1,7 @@
+*.md
+*.html
+*.txt
+*.xml
+.idea
+venv
+main.py
