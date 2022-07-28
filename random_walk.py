@@ -6,7 +6,7 @@ from random import choice
 
 class RWalkGenerator():
     '''Creates an instance of randomwalk (RW) with 500 steps and initial coordinates (0,0)'''
-    def __init__(self, num_points = 500) -> None:
+    def __init__(self, num_points = 5000) -> None:
         self.num_points = num_points
         self.x_coordinate = [0]
         self.y_coordinate = [0]
