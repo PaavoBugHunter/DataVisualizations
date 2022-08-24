@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+plt.style.available
 
 #How to get Python 3.10.4 compatible virtual environment? Done
 

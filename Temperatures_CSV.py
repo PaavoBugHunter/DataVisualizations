@@ -7,7 +7,7 @@ fig, ax = plt.subplots()
 from datetime import datetime
 
 '''Prgram for displaying temperatures from data stored in a csv-file.'''
-filename = "sitka_temperature.csv"
+filename = "sitka_temperature.csv" #File name must include path to data-file's location
 
 class Excavator():
     def __init__(self):
